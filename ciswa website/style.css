@@ -1,0 +1,62 @@
+
+
+.maincontainer {
+    
+   max-width: 1412px; 
+    
+}
+
+.members: {
+    
+     max-width: 1412px;
+}
+
+.footer {
+    max-width: 1412px;
+}
+
+.centered {
+/*
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+*/
+}
+
+.navbar{
+   font-size:0.875em;
+   margin-bottom:0px;
+}
+
+.navbar-nav li a:hover; {   
+background-color:transparent;
+}
+
+.banner {
+  /* The image used */
+    height: 700px;
+  background-image: url("images/bannerimage.jpg");
+background-size: cover;
+/*   max-width: 1412px;*/
+    
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+/*  background-size: cover;*/
+  
+  /* Needed to position the navbar */
+/*  position: relative;*/
+}
+
+.banner h1 {
+    font-family: 'Lato', sans-serif;
+/*    float:left;*/
+    width: 420px;
+    font-size: 3em;
+  font-weight: 700; 
+    
+    
+}
+}
+
