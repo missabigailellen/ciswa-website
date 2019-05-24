@@ -1,62 +1,99 @@
 
-
 .maincontainer {
-    
+    font-family: 'Lato', sans-serif;
    max-width: 1412px; 
     
 }
 
 .members: {
-    
+    font-family: 'Lato', sans-serif;
      max-width: 1412px;
 }
 
 .footer {
-    max-width: 1412px;
+    font-family: 'Lato', sans-serif;
+/*    max-width: 1412px;*/
+    padding: 25px;
+    background-color: black;
+    color: ghostwhite;
+    text-align: center;
 }
 
-.centered {
-/*
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-*/
+.icon-bar {
+    background-color: #f9a015;
+    
+    
 }
 
-.navbar{
-   font-size:0.875em;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+.nav navbar-nav navbar-right {
+    font-family: 'Lato', sans-serif;
+   font-size: 1em;
    margin-bottom:0px;
+    color:black;
 }
 
-.navbar-nav li a:hover; {   
-background-color:transparent;
+.btn {
+    color: white;
+    background-color: #f9a015;
+    font-family: 'Lato', sans-serif;
 }
 
 .banner {
-  /* The image used */
-    height: 700px;
-  background-image: url("images/bannerimage.jpg");
+   background-image: url("images/bannerimage.jpg");
 background-size: cover;
-/*   max-width: 1412px;*/
-    
-  /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
-/*  background-size: cover;*/
-  
-  /* Needed to position the navbar */
-/*  position: relative;*/
+    padding-bottom: 80px;
 }
 
 .banner h1 {
+    padding-top: 20px;
     font-family: 'Lato', sans-serif;
-/*    float:left;*/
-    width: 420px;
+    width: 500px;
     font-size: 3em;
-  font-weight: 700; 
-    
-    
-}
+  font-weight: 700;
+    font-style: italic;
+    color:white;
 }
 
+h2 {
+        font-family: 'Lato', sans-serif;
+        font-weight: 600;
+    }
+
+h3 {
+ 
+        font-family: 'Lato', sans-serif;
+        font-weight: 600;
+}
+
+.col-sm-4 h3 { 
+   font-family: 'Lato', sans-serif;
+    font-weight: 600;
+}
+
+.col-sm-4 p { 
+   font-family: 'Lato', sans-serif;
+    
+}
+
+.carousel-inner {
+    width: 1300px;
+    display: block;
+    margin-left: auto;
+  margin-right: auto;
+}
+
+.members{
+    width: 1300px;
+     display: block;
+    margin-left: auto;
+  margin-right: auto;
+}
